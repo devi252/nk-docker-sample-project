@@ -23,7 +23,7 @@ public class DemoApplication {
 	
 	@GetMapping("/test")
 	public String test() {
-		return "TEST API is working...";
+		return "TEST API is perfectly working...";
 	}
 	
 	@GetMapping("/test-2")
