@@ -20,5 +20,15 @@ public class DemoApplication {
 	public String home() {
 		return "home page API is woring....";
 	}
+	
+	@GetMapping("/test")
+	public String test() {
+		return "TEST API is working...";
+	}
+	
+	@GetMapping("/test-2")
+	public String test2() {
+		return "TEST API is working...";
+	}
 
 }
